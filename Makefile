@@ -3,7 +3,7 @@
 default: all
 
 .DEFAULT:
-	cd src && $(MAKE) $(EXTRA_CFLAGS) $@
+	cd src && $(MAKE) $@
 
 install:
 	cd src && $(MAKE) $@
